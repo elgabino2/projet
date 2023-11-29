@@ -7,8 +7,11 @@
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <span id="Welcome"> <span >W</span>elcome to</span> <span>html test zone</span>
+    </nav>
     <h1>page 1</h1>
-    <img src="image_search_1676199857588.jpg" alt="" weight="300px" height="400px">
+    <img src="./image/image_search_1676199857588.jpg" alt="" weight="30px" height="40px">
     <h3>Les formats d'image</h3>
     <ul>
         <li>png </li>
@@ -30,6 +33,60 @@
         <li>input de type email: <input type="email" name="" id=""> </li>
         <li>input de type password: <input type="password" name="" id="">  </li>
     </ul>
+    <nav id="foot">
+        <input type="text" name="nom" placeholder="Entrez une suggestion" id="nom">
+        <a href="patate.html">
+        <input type="submit" value="ok" id="ok"></a><br>
     <a href="patate.html">Navigation vers la page 2</a>
+</nav>
+    <style>
+        #nom{
+            padding: 8px;
+            border: none;
+        }
+        #ok{
+            padding: 8px;
+            margin-left: 0.1vh;
+            background-color: orange;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+        #foot{
+            height: 1vh;
+            padding: 9vh;
+            color: black;
+        }
+        #Welcome{
+            font-size: 30px;
+            color: antiquewhite;
+        }
+        nav{
+            height: 48px;
+            padding: 1vh;
+            background-color: black;
+            box-shadow: 1px 3px 4px 1px;
+        }
+        a{
+            text-decoration: none;
+            color: orange;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+        }
+        span{
+            font-size: 33px;
+            color: orange;
+            font-family:'Times New Roman', Times, serif ;
+        }
+        
+    </style>
+    <script>
+        console.log('test ok');
+        var a='succefull test';
+        console.log(a);
+        b=2;
+        c=3;
+        console.log(b+c);
+    </script>
 </body>
 </html>
